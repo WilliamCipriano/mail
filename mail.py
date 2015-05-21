@@ -21,4 +21,4 @@ def email(recipient, message, subject):
     server.sendmail(from_address, recipient, message)
     server.quit()
 
-email('alldentex@gmail.com', 'test', 'test')
+email('maildotpy@wfc.help', 'test', 'test')
